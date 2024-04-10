@@ -39,6 +39,7 @@ const Form = () => {
         }
         
     }
+    
     const PageDisplay=()=>{
         if(step===0){
             return <Step1 changeHandler={changeHandler}/>;
